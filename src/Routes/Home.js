@@ -43,7 +43,7 @@ const Home = () => {
       rotate: 180,
 
       scrollTrigger: {
-        markers: true,
+      
         trigger: ".img",
         start: "top 10%",
         end: "top -51%",
@@ -68,7 +68,7 @@ const Home = () => {
       scale: 1,
       rotate: 360,
       scrollTrigger: {
-        markers: true,
+       
         trigger: ".bottle",
         start: "top 0%",
         end: "top -122%",
@@ -110,7 +110,7 @@ const Home = () => {
       y: 800,
       rotate: 360,
       scrollTrigger: {
-        markers: true,
+       
 
         trigger: ".page1",
         start: "top 0%",
@@ -138,7 +138,7 @@ const Home = () => {
 
       // Double the rotation for visual interest
       scrollTrigger: {
-        markers: true,
+       
         //cap1 gor cap  cap.png
         trigger: ".page1", // Ensure ".page1" is distinct and not overlapping with ".bottle"
         start: "top 0%",
@@ -166,7 +166,7 @@ const Home = () => {
 
       // Double the rotation for visual interest
       scrollTrigger: {
-        markers: true,
+    
       
         trigger: ".page3", // Ensure ".page1" is distinct and not overlapping with ".bottle"
         start: "top 30% ",
@@ -183,7 +183,7 @@ const Home = () => {
    
       // Double the rotation for visual interest
       scrollTrigger: {
-        markers: true,
+       
       
         trigger: ".page3", // Ensure ".page1" is distinct and not overlapping with ".bottle"
         start: "top ",
@@ -198,7 +198,7 @@ const Home = () => {
     y:-300,
    scale: 1.5, 
       scrollTrigger: {
-        markers: true,
+      
       
         trigger: ".page4", // Ensure ".page1" is distinct and not overlapping with ".bottle"
         start: "top 0% ",
@@ -226,7 +226,7 @@ gsap.from(".line", {
     trigger: ".page4", // Ensure ".page1" is distinct and not overlapping with ".bottle"
     start: "top 0% ",
     end: "top -400%",
-    markers:true,
+   
     
   }
 })
