@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#navbar{
+    width: 98%;
+    height: 20px ;
+    background-color: #211E1A;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 20px;
+ }
+ #navbar h1{
+    font-size: 20px;
+    font-family: "Host Grotesk", serif;
+    color: #EDE3D4;
+    font-weight: 500;
+    font-style: bold;
+ }
+ .border{
+    border: 5px solid #EDE3D4;
+    border-radius: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #EDE3D4;
+ }
